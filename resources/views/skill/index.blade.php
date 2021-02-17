@@ -57,7 +57,7 @@
 
       <div class="row text-center">
         <header class="text-center mb-5 mx-auto">
-            <h2 class="h3 text-primary border-bottom">En Aprendizaje</h2>
+            <h2 class="h3 text-primary border-bottom">Bajo Desempeño</h2>
         </header>
       </div>
 

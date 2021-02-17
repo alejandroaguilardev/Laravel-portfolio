@@ -11,7 +11,7 @@
 <section class="py-5">
     <div class="container">
       <div class="row">
-        <div class="col-lg-8 mb-5 mb-lg-0">
+        <div class="col-lg-12 mb-5 mb-lg-0">
           <!-- About-->
           <div class="card border-0 shadow-sm mb-4 mb-lg-5 p-2 p-lg-0">
             <div class="card-body p-lg-5">
@@ -48,14 +48,20 @@
             <div class="card-body p-lg-5">
               <h2 class="h3 mb-4">Cursos y Certificados</h2>
               <span class="border-bot"></span>
-                <p>En plataformas de curso como Edteam, SoloLearn, Udemy, Primer y  Cisco. Pero principalmente suelo ver viodetutoriales en plataformas de streaming gratuitos como Youtube y Clases en Vivo gratuitas, que suelo reforzar con la documentación de la tecnología. </p>
+                <p>En plataformas de curso como Edteam, SoloLearn, Udemy  y  Cisco. Pero principalmente suelo ver viodetutoriales en plataformas de streaming gratuitos como Youtube y Clases en Vivo gratuitas, que suelo reforzar con la documentación de la tecnología. </p>
                 <div class="row">
                   <div class="rounded overflow-hidden mb-3 col-6 col-md-3 ">
-                    <a  href="{{asset('img/certificates/cisco-linux.jpg')}}" data-lightbox="tool-gallery"  class="certificates"> <img class="img-fluid" src="{{asset('img/certificates/cisco-linux.jpg')}}" alt="Imagen de Certificado de Cisco de Linux básico "></a>
-                   </div>
-                   <div class="rounded overflow-hidden mb-3 col-6 col-md-3 ">
+                     <a  href="{{asset('img/certificates/cisco-introduccion.jpg')}}" data-lightbox="tool-gallery"  class="certificates"> <img class="img-fluid" src="{{asset('img/certificates/cisco-introduccion.jpg')}}" alt="Imagen de Certificado de Cisco de Introducción "></a>
+                  </div>
+                  <div class="rounded overflow-hidden mb-3 col-6 col-md-3 ">
                      <a  href="{{asset('img/certificates/cisco-it.jpg')}}" data-lightbox="tool-gallery"  class="certificates"> <img class="img-fluid" src="{{asset('img/certificates/cisco-it.jpg')}}" alt="Imagen de Certificado de Cisco de It essencial "></a>
-                    </div>
+                  </div>
+                  <div class="rounded overflow-hidden mb-3 col-6 col-md-3 ">
+                    <a  href="{{asset('img/certificates/cisco-iot.jpg')}}" data-lightbox="tool-gallery"  class="certificates"> <img class="img-fluid" src="{{asset('img/certificates/cisco-iot.jpg')}}" alt="Imagen de Certificado de Cisco de Internet de las cosas "></a>
+                 </div>
+                 <div class="rounded overflow-hidden mb-3 col-6 col-md-3 ">
+                  <a  href="{{asset('img/certificates/cisco-linux.jpg')}}" data-lightbox="tool-gallery"  class="certificates"> <img class="img-fluid" src="{{asset('img/certificates/cisco-linux.jpg')}}" alt="Imagen de Certificado de Cisco de Linux básico " ></a>
+                 </div>
                   <div class="rounded overflow-hidden mb-3 col-6 col-md-3 ">
                    <a  href="{{asset('img/certificates/learn-html.jpg')}}" data-lightbox="tool-gallery"  class="certificates"> <img class="img-fluid" src="{{asset('img/certificates/learn-html.jpg')}}" alt="Imagen de Certificado de Html Sololearn"></a>
                   </div>
@@ -67,6 +73,15 @@
                    </div>
                    <div class="rounded overflow-hidden mb-3 col-6 col-md-3 ">
                     <a  href="{{asset('img/certificates/learn-php.jpg')}}" data-lightbox="tool-gallery"  class="certificates"> <img class="img-fluid" src="{{asset('img/certificates/learn-php.jpg')}}" alt="Imagen de Certificado de Php En Sololearn"></a>
+                   </div>
+                   <div class="rounded overflow-hidden mb-3 col-6 col-md-3 ">
+                    <a  href="{{asset('img/certificates/learn-jquery.jpg')}}" data-lightbox="tool-gallery"  class="certificates"> <img class="img-fluid" src="{{asset('img/certificates/learn-php.jpg')}}" alt="Imagen de Certificado de Jquery En Sololearn"></a>
+                   </div>
+                   <div class="rounded overflow-hidden mb-3 col-6 col-md-3 ">
+                    <a  href="{{asset('img/certificates/learn-sql.jpg')}}" data-lightbox="tool-gallery"  class="certificates"> <img class="img-fluid" src="{{asset('img/certificates/learn-php.jpg')}}" alt="Imagen de Certificado de SQL En Sololearn"></a>
+                   </div>
+                   <div class="rounded overflow-hidden mb-3 col-6 col-md-3 ">
+                    <a  href="{{asset('img/certificates/learn-java.jpg')}}" data-lightbox="tool-gallery"  class="certificates"> <img class="img-fluid" src="{{asset('img/certificates/learn-java.jpg')}}" alt="Imagen de Certificado de Java En Sololearn"></a>
                    </div>
                    <div class="rounded overflow-hidden mb-3 col-6 col-md-3 ">
                     <a  href="{{asset('img/certificates/edteam-html.jpg')}}" data-lightbox="tool-gallery"  class="certificates"> <img class="img-fluid" src="{{asset('img/certificates/edteam-html.jpg')}}" alt="Imagen de Certificado de Html En Edteam"></a>
@@ -84,7 +99,7 @@
           </div>
         </div>
 
-        <div class="col-lg-4 mb-5 mb-lg-0">
+        {{-- <div class="col-lg-4 mb-5 mb-lg-0">
           <!-- About-->
           <div class="card border-0 shadow-sm mb-4 mb-lg-5 p-2 p-lg-0">
             <div class="card-body p-lg-5">
@@ -96,7 +111,7 @@
                   <div class=" reset-anchor border-0 shadow h-100 hover-transition">
                     <div class="card-body p-4 p-lg-5">
                       <div class="essential-tool-img mb-4 mx-auto" style="background: url({{asset('img/experiences/gweb7.png')}})"></div>
-                      <h3 class="h5"> <a class="stretched-link reset-anchor" href="https://gweb7.com/" target="_blank" rel="norefrrer">Gweb7</a></h3>
+                      <h3 class="h5"> <a class="stretched-link reset-anchor" href="https://gweb7.com/" target="_blank"  rel="noreferrer noopener">Gweb7</a></h3>
                       <p class="text-small text-muted mb-0">Desarrollador de Sitios Web administrables, Diseño Publicitario, Marketing Digital y Asesor de Ventas</p>
                     </div>
                   </div>
@@ -106,7 +121,7 @@
                   <div class="card reset-anchor border-0 shadow h-100 hover-transition">
                     <div class="card-body p-4 p-lg-5">
                       <div class="essential-tool-img mb-4 mx-auto" style="background: url({{asset('img/experiences/yupa.png')}})"></div>
-                      <h3 class="h5"> <a class="stretched-link reset-anchor" href="http://yupacreativa.com/" target="_blank" rel="norefrrer">Yupa Creativa</a></h3>
+                      <h3 class="h5"> <a class="stretched-link reset-anchor" href="http://yupacreativa.com/" target="_blank"  rel="noreferrer noopener">Yupa Creativa</a></h3>
                       <p class="text-small text-muted mb-0">Desarrollador de Web Service,   Desarrollador de Sitios Web / Ecommerce, Administrador de WHM</p>
                     </div>
                   </div>
@@ -115,14 +130,14 @@
                   <div class="card reset-anchor border-0 shadow h-100 hover-transition">
                     <div class="card-body p-4 p-lg-5">
                       <div class="essential-tool-img mb-4 mx-auto" style="background: url({{asset('img/experiences/ford.png')}})"></div>
-                      <h3 class="h5"> <a class="stretched-link reset-anchor" href="https://www.ford.com.ve/" target="_blank" rel="norefrrer">Ford Motor Company</a></h3>
+                      <h3 class="h5"> <a class="stretched-link reset-anchor" href="https://www.ford.com.ve/" target="_blank" rel="noreferrer noopener">Ford Motor Company</a></h3>
                       <p class="text-small text-muted mb-0">Mi Primeras practicas laborales fue en esta compañia, realizando Macros para Excel  y aplicaciones a medidas. </p>
                     </div>
                   </div>
-                </div>
+                </div> 
             </div>
           </div>
-        </div>
+        </div> --}}
       </div>
     </div>
 </section>

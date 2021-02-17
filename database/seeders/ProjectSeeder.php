@@ -26,7 +26,18 @@ class ProjectSeeder extends Seeder
         'link' => 'http://localhost/portafolio_recursos/Proyetcos/laravel/dafft/' ,'fecha' => '2020', 'description' => 
         'Ofecen una gran variedad de espacios de trabajo que van desde oficinas virtuales, compartidas y  privadas.']);
         
+        
         //2-Wordpress
+        Project::create(['name' => 'Tienda En línea', 'image' => 'img/projects/wordpress.jpg', 'category_id' => 2,
+        'link' => 'http://ecommerce.test/' , 'fecha' => '2020', 'description' => 
+        'Tienda online realziada con Elementor Pro y woocomeerce, sitio de prueba ecommerce.']); 
+        Project::create(['name' => 'Imprentas Wilson', 'image' => 'img/projects/imprentaswilson.jpg', 'category_id' => 2, 
+        'link' => 'http://imprentaswilson.test/' , 'fecha' => '2021','description' => 
+        'Imprentas Wilson - imprenta relacionada a la publicidad digital y marketing en Lima Perú. ']); 
+        Project::create(['name' => 'Lms Cursos', 'image' => 'img/projects/lms.jpg', 'category_id' => 2, 
+        'link' => 'http://lms.test/' ,'fecha' => '2019', 'description' => 
+        'Diseño web, sobre Instituto de curso realizado con el tema divi.']);
+
 
          //3-Design Web
          Project::create(['name' => 'Sytem Group', 'image' => 'img/projects/system-group.jpg', 'category_id' => 3,
@@ -39,6 +50,7 @@ class ProjectSeeder extends Seeder
          'link' => 'http://localhost/portafolio_recursos/Proyetcos/design-web/neocoworking/' ,'fecha' => '2020', 'description' => 
          'Ofecen una gran variedad de espacios de trabajo que van desde oficinas virtuales, compartidas y  privadas.']);
         
+
          //4-Administrables
          Project::create(['name' => 'Ojos se Luce', 'image' => 'img/projects/ojos-se-luce.jpg', 'category_id' => 4,
          'link' => 'http://localhost/portafolio_recursos/Proyetcos/php/ojos-se-luce/' , 'fecha' => '2020', 'description' => 
@@ -50,8 +62,8 @@ class ProjectSeeder extends Seeder
          'link' => 'http://localhost/portafolio_recursos/Proyetcos/php/metro/' ,'fecha' => '2020', 'description' => 
          'Ofecen una gran variedad de espacios de trabajo que van desde oficinas virtuales, compartidas y  privadas.']);
 
-         //5 Design 
 
+         //5 Design 
          Project::create(['name' => 'Logotype', 'image' => 'img/projects/logotype.jpg', 'category_id' => 5,
          'link' => asset('img/projects/logotype.jpg') , 'fecha' => '2020', 'description' => 
          'Diversos logotypos para Andrea del rubro de  Pastelería  y La Luz del rubro  Publicidad Digital']); 
